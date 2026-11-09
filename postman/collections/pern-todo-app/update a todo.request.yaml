@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:7000/todos/2
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "description": "read an interesting book on Blockchain",
+        "completed": true
+    }
+order: 3000

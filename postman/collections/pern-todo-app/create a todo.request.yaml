@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:7000/todos
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "description": "read a docs",
+        "completed": false
+    }
+order: 1000

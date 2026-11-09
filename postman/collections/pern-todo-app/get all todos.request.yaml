@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:7000/todos
+method: GET
+body:
+  type: json
+  content: ""
+order: 2814
